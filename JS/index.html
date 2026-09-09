@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Bank Project</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="bank-container">
+        
+        <!-- Current Balance -->
+        <div class="card balance-card">
+            <div class="balance-text">
+                <div class="label">Current Balance</div>
+                <h1 id="current-balance">$1000</h1>
+            </div>
+            <div class="icon-circle">$</div>
+        </div>
+
+        <!-- Totals -->
+        <div class="card totals-card">
+            <div class="total-item">
+                <div class="label black-label">Total Deposit</div>
+                <h2 id="total-deposit">$0</h2>
+            </div>
+            <div class="total-item">
+                <div class="label black-label">Total Withdraw</div>
+                <h2 id="total-withdraw">$0</h2>
+            </div>
+        </div>
+
+        <!-- Actions Space/Area -->
+        <div class="card actions-card">
+            <h2>My Bank</h2>
+            <div class="input-group">
+                <label for="amount-input" class="label black-label">Amount</label>
+                <input type="text" id="amount-input" inputmode="decimal" placeholder="Enter amount">
+            </div>
+            
+            <div class="btn-group">
+                <button id="btn-deposit" class="btn btn-deposit">Deposit</button>
+                <button id="btn-withdraw" class="btn btn-withdraw">Withdraw</button>
+            </div>
+            
+            <button id="btn-reset" class="btn btn-reset">Reset Account</button>
+            
+            <p id="message-area">Welcome to your account.</p>
+        </div>
+
+    </div>
+
+    <script src="./scrtipt.js"></script>
+</body>
+</html>
