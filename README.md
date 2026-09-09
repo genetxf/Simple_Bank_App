@@ -31,7 +31,7 @@ No build tools or dependencies are required.
 1. Clone the repository:
 
    ```bash
-   git clone <your-repository-url>
+   git clone <repository-url>
    cd my-work-simple-bank-app
    ```
 
